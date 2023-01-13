@@ -33,7 +33,7 @@ const EditNote = () => {
     }
 
 
-    const content = note && users ? <EditNoteForm note={note} users={users} /> : <p>Loading...</p>
+    const content = note && users ? <EditNoteForm note={note} users={users} /> : <PulseLoader color="#FFF" />
 
     return content
 }
